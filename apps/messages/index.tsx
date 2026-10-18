@@ -39,8 +39,8 @@ const initialConversations: Conversation[] = [
       { id: 2, text: "누나가 헤어지자는데", mine: false, time: "오후 6:46" },
       { id: 3, text: "아 제발", mine: false, time: "" },
       { id: 4, text: "연락 좀 해주셈", mine: false, time: "오후 6:27" },
-      { id: 5, text: "니 연락은 보잖아", mine: false, time: "오후 6:27" },
-      { id: 6, text: "시발 내 여친인데", mine: false, time: "오후 6:27" },
+      { id: 5, text: "니 연락은 보잖아", mine: false, time: "" },
+      { id: 6, text: "시발 내 여친인데", mine: false, time: "" },
       { id: 7, text: "좆같네 쳐읽어라", mine: false, time: "오후 6:30" },
       { id: 8, text: "바빠 씨발아", mine: true, time: "오후 8:56" },
       { id: 9, text: "마두두 누나 여기ㅅ잇엉ㅇ", mine: true, time: "오전 3:14" },
@@ -49,8 +49,8 @@ const initialConversations: Conversation[] = [
   },
   {
     id: 3,
-    name: "우리 반",
-    initials: "반",
+    name: "112",
+    initials: "",
     color: "#B3A0E8",
     messages: [
       { id: 1, text: "내일 준비물 잊지 마!", mine: false, time: "오후 5:10" },
