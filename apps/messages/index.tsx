@@ -37,7 +37,7 @@ const initialConversations: Conversation[] = [
     messages: [
       { id: 1, text: "어떡하냐고 ㅅㅂ", mine: false, time: "오후 6:45" },
       { id: 2, text: "누나가 헤어지자는데", mine: false, time: "오후 6:46" },
-      { id: 3, text: "아 제발", mine: false, time },
+      { id: 3, text: "아 제발", mine: false, time: "" },
       { id: 4, text: "연락 좀 해주셈", mine: false, time: "오후 6:27" },
       { id: 5, text: "니 연락은 보잖아", mine: false, time: "오후 6:27" },
       { id: 6, text: "시발 내 여친인데", mine: false, time: "오후 6:27" },
