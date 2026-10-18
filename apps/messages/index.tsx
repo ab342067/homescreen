@@ -20,13 +20,13 @@ type Conversation = {
 const initialConversations: Conversation[] = [
   {
     id: 1,
-    name: "김민지",
-    initials: "민",
+    name: "곽상현",
+    initials: "곽",
     color: "#F2A6B3",
     messages: [
-      { id: 1, text: "오늘 뭐 해?", mine: false, time: "오후 7:20" },
-      { id: 2, text: "집에서 쉬고 있어!", mine: true, time: "오후 7:21" },
-      { id: 3, text: "그럼 내일 만날래?", mine: false, time: "오후 7:22" },
+      { id: 1, text: "어디임", mine: false, time: "오후 12:20" },
+      { id: 2, text: "화장실", mine: true, time: "오후 12:24" },
+      { id: 3, text: "내려오셈", mine: false, time: "오후 12:26" },
     ],
   },
   {
