@@ -49,7 +49,7 @@ const initialConversations: Conversation[] = [
   },
   {
     id: 3,
-    name: "112",
+    name: "+010-000",
     initials: "",
     color: "#B3A0E8",
     messages: [
