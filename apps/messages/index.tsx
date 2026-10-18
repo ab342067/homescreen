@@ -53,7 +53,7 @@ const initialConversations: Conversation[] = [
     initials: "",
     color: "#B3A0E8",
     messages: [
-      { id: 1, text: "내일 준비물 잊지 마!", mine: false, time: "오후 5:10" },
+      { id: 1, text: "영진경찰서 임수연 수사관입니다. 사건 접수 관련하여 경찰 출석 일정 조율을 위한 연락부탁드립니다.", mine: false, time: "오전 9:10" },
     ],
   },
 ];
