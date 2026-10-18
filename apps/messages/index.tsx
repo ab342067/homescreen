@@ -43,8 +43,8 @@ const initialConversations: Conversation[] = [
       { id: 6, text: "시발 내 여친인데", mine: false, time: "오후 6:27" },
       { id: 7, text: "좆같네 쳐읽어라", mine: false, time: "오후 6:30" },
       { id: 8, text: "바빠 씨발아", mine: true, time: "오후 8:56" },
-      { id: 9, text: "마두두 누나 여기ㅅ잇엉ㅇ", mine: false, time: "오전 3:14" },
-      { id: 10, text: "상혀ㄴ이네루 와", mine: false, time: "오전 3:19" },
+      { id: 9, text: "마두두 누나 여기ㅅ잇엉ㅇ", mine: true, time: "오전 3:14" },
+      { id: 10, text: "상혀ㄴ이네루 와", mine: true, time: "오전 3:19" },
     ],
   },
   {
@@ -132,7 +132,7 @@ export default function Messages() {
 
             <main class="flex-1 overflow-y-auto px-4 py-5 pb-16">
               <div class="mb-5 text-center text-xs text-gray-500">
-                오늘
+                
               </div>
 
               {active.messages.map((message) => (
